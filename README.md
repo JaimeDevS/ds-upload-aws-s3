@@ -3,6 +3,15 @@
 
 <img width="317" height="159" alt="image" src="https://hermes.dio.me/articles/cover/77837398-793e-413b-bc2b-bad53e9032e0.png" />
 
+1. Configurar o Bucket na AWS S3
+	- awd id
+	- aws key
+	- região
+2. Adicionar o *commons-io*, *com.amazonaws* nas tags <dependency/>, e *com.amazonaws* na tag <dependencyManagement/> no pom.xml
+3. Criar o Bean de configuração com o S3 no projeto
+4. Criar as variáveis de ambiente no S.O.
+5. Configurar as variáveis de ambiente no application.properties
+6. Criar os DTO`s, S3Service, e as Exceptions
 
 ## Criar um Bucket 
 bds-aula
